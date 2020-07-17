@@ -43,8 +43,14 @@ function searchMeal(e){
     alert('Please enter a search term');
   }
 
-  console.log(term);
+  // console.log(term);
 }
 
 //Event Listener
 submit.addEventListener('submit', searchMeal);
+
+mealsEl.addEventListener('click', e => {
+  const mealInfo = e.path.find(item => {
+    console.log(item);
+  });
+});
