@@ -1,5 +1,5 @@
 const main = document.querySelector('main');
-const voiceSelect = document.getElementById('voices');
+const voicesSelect = document.getElementById('voices');
 const textarea = document.getElementById('text');
 const readBtn = document.getElementById('read');
 const toggleBtn = document.getElementById('toggle');
@@ -98,7 +98,7 @@ function getVoices(){
     option.value = voice.name;
     option.innerText = `${voice.name} ${voice.lang}`;
 
-    voiceSelect.appendChild(option);
+    voicesSelect.appendChild(option);
   });
 }
 
