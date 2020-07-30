@@ -68,15 +68,15 @@ button:active {
  }
 
  form button{
-   position: absolute;
-   top: 2px;
-   right: 2px;
-   background-color: #e056fd;
-   border: 0;
-   border-radius: 50px;
-   color: #fff;
-   font-size: 16px;
-   padding: 13px 30px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: #e056fd;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  padding: 13px 30px;
  }
 
  .btn {
@@ -111,7 +111,6 @@ ul.song li {
 
 .container p {
   text-align: center;
-
 }
 
 .centered {
