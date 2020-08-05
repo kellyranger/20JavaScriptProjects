@@ -51,19 +51,19 @@ function createList(){
 }
 
 function dragStart(){
-  console.log('Event: ', dragstart);
+  console.log('Event: ', 'dragstart');
 }
 function dragEnter(){
-  console.log('Event: ', dragenter);
+  console.log('Event: ', 'dragenter');
 }
 function dragLeave(){
-  console.log('Event: ', dragleave);
+  console.log('Event: ', 'dragleave');
 }
 function dragOver(){
-  console.log('Event: ', dragover);
+  console.log('Event: ', 'dragover');
 }
 function dragDrop(){
-  console.log('Event: ', dragdrop);
+  console.log('Event: ', 'dragdrop');
 }
 
 
